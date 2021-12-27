@@ -1,5 +1,6 @@
 title: Urban Template
 url: "https://teal-worm.cloudvent.net"
+markdown: kramdown
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
