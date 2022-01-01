@@ -1,46 +1,42 @@
 ---
 title: Contact
 heading: Get in touch today
-subtitle: We'd love to help your business.
+subtitle: Out team will contact you very soon.
 map:
   latitude: 12.8452
   longitude: 77.6422
-  address: "506, Innovative Saanvi, Electronic city"
+  address: "506, Innovative Saanvi, Electronic city, Karnataka - 560100"
   zoom: 13
 ---
-
-<section class="diagonal">
-	<div class="container">
-		<form action="{{ site.baseurl }}/contact-success/" method="post" class="contact-form">
-			<input type="hidden" name="_to" value="support@example.com" />
-			<input type="text" name="_gotcha" style="display: none;" />
-
-			<div class="halves">
-				<div>
-					<label for="name">First Name</label>
-					<input type="text" name="first-name" id="first-name" placeholder="xyz" />
-				</div>
-
-				<div>
-					<label for="name">Last Name</label>
-					<input type="text" name="last-name" id="last-name" placeholder="xyz" />
-				</div>
-			</div>
-
-			<label for="email">Email Address</label>
-			<input type="email" name="email" id="email" placeholder="aistudiosdotin@gmail.com" required />
-
-			<label for="message">Message</label>
-			<textarea name="message" id="message" placeholder="Hi There..."></textarea>
-
-			<input type="submit" value="Send Message" />
+<!-- contact form start -->
+<section id="diagonal">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-sm-12">	    
+        <form action="https://formspree.io/f/mknngewb" method="POST">
+     
+         	<div class="block">
+	            <div class="form-group">
+	              <input type="text" class="form-control" placeholder="Your Name" name="=name">
+	            </div>
+	            <div class="form-group">
+	              <input type="text" class="form-control" placeholder="Your Email Address" name="_replyto">
+	            </div>   
+	            <div class="form-group">
+	              <textarea class="form-control" rows="3" placeholder="Your Message. Give your phone number here. Our team will contact you very soon." name="massage"></textarea>
+	            </div>
+	        	</br>
+	            <button class="btn btn-default" type="submit">Send Message</button>
+         	</div>
 		</form>
-	</div>
+    	</div>
+      </div>
+    </div>
 </section>
 
-<section class="diagonal map">
+<!--<section class="diagonal map">
 	<div id="gmap_canvas"></div>
-</section>
+</section>-->
 
 <section class="diagonal">
 	<div class="container halves aligned-top">
